@@ -1,0 +1,67 @@
+/*Toolbar Navigation*/
+.toolbar{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+grid-template-rows: auto;
+background-color: #333;
+}
+.nav-block{
+    text-align: center;
+    padding:14px 16px
+}
+.nav-link{
+    text-align: center;
+    text-decoration: none;
+    
+
+}
+.active{
+    background-color:#04AA6D;
+    color: black !important;
+}
+.nav-block:hover {
+    background-color: #0000ff;
+    color: black;}
+    /*media  Tool bar for mobile*/
+    *****************************************************************************************
+    Menu-Hamburg Styling
+    *****************************************************************************************/
+   
+    
+    .sidemenu{
+        width: 100%;
+        background-color: #ddd;
+       
+        
+    }
+   /*icon*/
+    .icon{
+        
+        font-weight:600;
+       font-size: 24px;
+
+    }
+/*Search style*/
+
+.search-label{
+    margin-top: 10px;
+    background-color: #ddd;
+    padding-bottom: 2px;
+    
+}
+.search-form{
+    padding:1px 1px 3px 1px;
+border-radius: 5px;
+background-color: white;
+}
+.search{
+
+    width: 100px;
+    margin-top: 14.5px;
+    
+    border: none;
+}
+/*login and sign up*/
+.f-left{
+float: right;
+}

@@ -1,0 +1,76 @@
+header{
+    position: sticky;
+   
+    
+    top: 0;
+    background-color: #04AA6D;
+   /* background-color: #34A853;*/
+   z-index: 3;
+    
+ 
+}
+.headerbar{
+  display: inline-block;
+}
+.tutorials{
+    position: relative;
+}
+.logotitle{
+ width: 85%;
+  text-align: center;
+  font-weight:bolder;
+  font-size:larger;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+}
+.register{
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.headertitle{
+  display: grid;
+}
+.euee-dropdown,.dropdown-tutorials{
+    
+    position: absolute;
+   display: none;
+   min-width: 160px;
+    border-radius: 10px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   padding: 12px 16px;
+   z-index: 1;
+}
+.tutorials:hover .dropdown-tutorials,.euee:hover .euee-dropdown {
+    display: block;
+}
+.dropdown-tutorials div a,.euee-dropdown div a{
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+.dropdown-tutorials div:hover a,.euee-dropdown div:hover a{
+    background-color: #03989e;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+/*Cover image*/
+.imgtitle{
+  max-width: 100%;
+}
+/*login and sign up style*/
+.signup,.login{
+  margin: 5px 10px;
+  width: 50px;
+  height: 25px;
+  color: white;
+  background-color: #0000ff;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 8px 16px;
+
+}
+.signup:hover,.login:hover{
+  
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}

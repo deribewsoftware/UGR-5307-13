@@ -1,0 +1,62 @@
+main{
+    display: grid;
+    grid-template-columns: auto;
+   
+   background-color: #ffff99;
+   
+} 
+
+
+
+ .aboutus{
+   
+    
+    text-align: center;
+    padding: 20px 0;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    background-color:#0000ff;
+}
+.frequency{
+    background-color: #4285F4;
+}
+.developer{
+    background-color:#EA4335 ;
+}
+.frequency,.developer{
+    text-align: center;
+   
+    
+  height: 400px;
+    border-radius: 4px;
+}
+
+
+.ethioexams,.service{
+    justify-content: left;
+  padding-bottom: 30px;
+  height: 500px;
+    text-align:center;
+
+  
+  
+    
+    
+    
+   
+}
+
+
+.stitle{
+    font-size: large;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    
+}
+.deriphoto{
+    border-radius: 50%;
+}

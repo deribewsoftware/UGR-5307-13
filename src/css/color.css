@@ -1,0 +1,12 @@
+/* font color css*/
+.white{ color:white;}
+.red{color: red;}
+.green{color: green;}
+.blue{color: blue;}
+.bright-yellow{color:#ffff00;}
+.black{color:black !important;}
+/*backgroung color css*/
+.bg-white{ background-color:white;}
+.bg-red{ background-color:red;}
+.bg-green{ background-color:green;}
+.bg-blue{ background-color:blue;}

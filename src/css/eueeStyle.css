@@ -1,0 +1,28 @@
+fieldset{
+    border: none;
+    margin: 20px 30px;
+}
+.btn{
+    text-align: center;
+}
+.btnsubmit {
+    height: 60px;
+    width: 50%;
+    text-align: center;
+    background-color:red ;
+    border-radius: 16px;
+    border: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: bold;
+
+    
+
+}
+.btnsubmit:hover{
+    box-shadow:0px 4px 8px 0px rgba(0,0,0,0.5) ;
+}
+.btnsubmit:active{
+    box-shadow: inset 0px 4px 8px 0px rgba(0,0,0,0.5) ;
+}

@@ -1,0 +1,45 @@
+.registerstudent{
+    text-align: center;
+    margin: 0 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 100%;
+    overflow: hidden;
+    
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+    background-color: aqua;
+}
+.studentblock{
+border: none;
+}
+.studentlegent{
+    padding: 10px;
+color: #ff0000;
+font-size: larger;
+font-weight: bold;
+}
+.submit{
+    background-color: #0000ff;
+    color: white;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border: none;
+    
+    text-align: center;
+    border-radius: 8px;
+}
+.submit:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#error{
+    color: red;
+    visibility: hidden;
+}
+
+#passwordvalidate,#uservalidate,#icon{
+    color: red;
+    visibility: hidden;
+}
